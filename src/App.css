@@ -1,0 +1,26 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.card-item {
+  margin: 1rem;
+}
