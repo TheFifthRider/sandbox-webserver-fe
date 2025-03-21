@@ -1,9 +1,4 @@
-export interface Fruit {
-    id: number;
-    name: string;
-    color: string;
-    pricePerKg: number;
-}
+import {Fruit} from './fruitTypes.ts'
 
 const API_URL = 'http://localhost:8000/fruits/';
 

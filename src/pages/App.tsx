@@ -1,8 +1,10 @@
 import { Container, Typography, Box, AppBar, Toolbar } from '@mui/material';
-import FruitManager from './FruitManager';
+import FruitManager from '../components/FruitManager.tsx';
 import './App.css'
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Menu from "../components/Menu.tsx";
+import CartManager from "../components/CartManager.tsx";
 
 const theme = createTheme({
     palette: {
@@ -35,8 +37,9 @@ function App() {
                     <Typography variant="h4" gutterBottom>
                         Manage Fruits
                     </Typography>
-
                     <FruitManager />
+                    <Menu />
+                    <CartManager />
                 </Container>
             </Box>
         </div>

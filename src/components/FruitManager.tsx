@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button, Box, TextField, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
 import { Edit, Delete } from '@mui/icons-material';
-import { fetchFruits, addFruit, updateFruit, deleteFruit } from './fruitService';
+import { fetchFruits, addFruit, updateFruit, deleteFruit } from '../details/fruitService.ts';
 import { DataGrid, GridColDef, GridRowsProp } from '@mui/x-data-grid';
 
 interface Fruit {
